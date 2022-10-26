@@ -40,27 +40,29 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
-section.menu{
+.menu{   
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;       
-    width: 100%;
     height: 88px;
-    padding: 32px 0px;
-    gap: 611px;
+    width: 1136px;
+    left: 152px;
+    top: 0px;
+    border-radius: 0px;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 /*Sessão Title*/
 
 section.title{
-
+    display: flex;
 }
 
 /*Sessão About*/
 
 section.about{
-
+    display: flex;
 }
 
 /*Sessão Hobbies*/
